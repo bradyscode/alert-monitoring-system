@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alert-monitoring", "alert-monitoring\alert-monitoring.csproj", "{114898CA-463C-4E33-A7B0-F18D9E0988E0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{172561C7-15B9-4D17-951F-FF050D077B3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{114898CA-463C-4E33-A7B0-F18D9E0988E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114898CA-463C-4E33-A7B0-F18D9E0988E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114898CA-463C-4E33-A7B0-F18D9E0988E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172561C7-15B9-4D17-951F-FF050D077B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172561C7-15B9-4D17-951F-FF050D077B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172561C7-15B9-4D17-951F-FF050D077B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172561C7-15B9-4D17-951F-FF050D077B3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

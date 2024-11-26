@@ -66,22 +66,18 @@ namespace alert_monitoring.Services
             }
         }
 
-        // Simulated methods - replace with actual system monitoring logic
+        // TODO
         private double GetCpuUsage()
         {
-            PerformanceCounter cpuCounter;
-
-            cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
-            return cpuCounter.NextValue();
+            var rand = new Random();
+            return (float)(float.MaxValue * 2.0 * (rand.NextDouble() - 0.5));
         }
+
+
         private double GetMemoryUsage()
         {
-            var memory = 0.0;
-            using (Process proc = Process.GetCurrentProcess())
-            {
-                memory = proc.PrivateMemorySize64 / (1024 * 1024);
-            }
-            return memory;
+            var rand = new Random();
+            return (float)(float.MaxValue * 2.0 * (rand.NextDouble() - 0.5));
 
         }
     }
